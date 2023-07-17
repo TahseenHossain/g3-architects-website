@@ -1,0 +1,351 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+  *{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  .btn-primary{
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 0rem 8rem;
+  }
+
+  /*nav-bar*/
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav > ul{
+    display: flex;
+  }
+
+  nav li{
+    list-style: none;
+    margin-right: 35px;
+    color: #424242;
+    font-size: 1em;
+    font-weight: 500;
+  }
+
+  nav li a{
+    text-decoration: none;
+  }
+
+  .nav-name{
+    color: #131313;
+    text-align: left;
+    font-size: 2.8rem;
+    font-weight: 700;
+  }
+
+  /*banner*/
+  .banner-content{
+    text-align: center;
+    max-width: 54rem;
+    margin: 0 auto;
+  }
+
+  .banner-title{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+    padding-bottom: 0 rem;
+  }
+
+  .banner-article{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 2rem;
+  }
+
+  .banner img{
+    width: 100%;
+    padding: 3rem 0rem 3rem;
+  }
+
+  /*team*/
+  .teams{
+    padding: 5.3rem 9rem 6rem;
+    display: flex;
+    align-items: center;
+    gap: 4.75rem;
+    justify-content: space-between;
+  }
+
+  .teams-image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+
+  .banner-title{
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .banner-title-1{
+    color: #727272;
+  }
+
+  .banner-title-2{
+    color: #131313;
+  }
+
+  .banner-title-3{
+    color: #FF900E;
+  }
+
+  .banner-article{
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+
+  /*features*/
+  .features{
+    display: flex;
+    margin: 3rem 8rem;
+    gap: .25rem;
+
+    
+  }
+
+  .features-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 1rem;
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .features-article, .features-sub-article{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .features-article-box{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 1rem;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    width: 450px;
+  }
+
+  .features-article{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 1rem;
+    padding: 1.5rem 4rem 1.5rem 0rem;
+    width: 450px;
+  }
+
+
+  .features-sub-title{
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .features-sub-article{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .ten-badge{
+    border-radius: 8px;
+    width: 200px;
+    height: 140px;
+    background-color: #FF900E;
+    padding: 1rem 2.5rem 3.5rem;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    bottom:100px;
+    margin-left: -60px;
+  }
+
+  .ten-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 0px;
+  }
+
+  .ten-article{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+  /*facts*/
+  .facts{
+    padding: 8rem 50rem 1.5rem 8rem;
+  }
+
+  .facts-title{
+    color: #131313;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .facts-article{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .features img{
+    width: 100%;
+  }
+
+  /*factor-image*/
+  .facts-img-box-container{
+    display: flex;
+    margin: 0rem 9rem 9rem 9rem;
+    justify-content: space-around;
+  }
+
+  .facts-img-box{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 30px;
+    text-align: center;
+    width: 200px;
+    height: 140px;
+  }
+
+  .facts-number{
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 10px 0px;
+  }
+
+  .facts-topic{
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+
+  .sponspors{
+    text-align: center;
+  }
+  .spon-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+  }
+
+  .spon-article{
+    color: #727272;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .spon-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0rem 8rem;
+  }
+
+  .spon-img-container img{
+    width: 100%;
+  }
+
+  /*mobile*/
+  @media screen and (max-width: 576px){
+    header, .teams, .facts-img-box-container, .features, .facts,.spon-img-container,.sponspors {
+      padding: 20px;
+    }
+    nav,.teams,.facts-img-box-container, .features,.spon-img-container{
+      flex-direction: column;
+    }
+
+    .teams-image-container{
+      grid-template-columns: 1fr;
+    }
+
+    .teams-content,.facts-title, .facts-article, .facts-img-box-container,.spon-img-container{
+      justify-content: center;
+      text-align: center;
+    }
+
+    .features-article, .features-article-box,.facts-img-box{
+      width: 300px
+    }
+
+    .features{
+      margin: 2px;
+    }
+
+    .facts,.facts-img-box-container,.spon-img-container{
+      margin: 0px;
+      gap:25px
+    }
+
+
+  }
+
+ /*tab*/
+  @media screen and (min-width: 576px) and (max-width: 960px){
+    header, .teams, .facts-img-box-container, .features, .facts, .spon-img-container,.sponspors{
+      padding: 50px;
+    }
+    nav,.teams,.facts-img-box-container, .features,.spon-img-container{
+      flex-direction: column;
+    }
+
+    .teams-content,.facts-title, .facts-article, .facts-img-box-container,.spon-img-container{
+      justify-content: center;
+      text-align: center;
+    }
+
+    .facts,.facts-img-box-container,.spon-img-container{
+      margin: 0px;
+      gap:25px
+    }
+
+    .features{
+      margin: 2px;
+    }
+
+    .features-article, .features-article-box,.facts-img-box{
+      width: 575px
+    }
+
+    .teams-image-container{
+      grid-template-columns: 1fr;
+    }
+
+    .teams-content,.facts-title, .facts-article, .facts-img-box-container{
+      justify-content: center;
+      text-align: center;
+    }
+  }
